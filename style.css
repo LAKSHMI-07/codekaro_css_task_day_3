@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header{
+    border-bottom: 1px solid #dbdbdb;
+    padding: 15px 0px;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    align-self: flex-end;
+}
+
+.header button{
+    padding: 8px 16px;
+    font-weight: 500;
+    border: none;
+    font-size: 14px;
+}
+
+.login-btn{
+    background-color: #0095f6;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.signup-btn{
+    background-color: transparent;
+    color: #1877f2;
+    border: none;
+}
+
+.sec-1{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    padding: 2rem 3rem;
+}
+
+.img-container{
+    position: relative;
+}
+
+.g-logo{
+position: absolute;
+border-radius: 50%;
+    border: 1px solid lightgray;
+    height: 155px;
+    top: 10px;
+    left: 10px;
+}
+
+.g-logo-canva{
+height: 175px;
+}
+
+
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.logo-title .title p{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+.logo-title svg {
+    color: #0095f6;
+}
+
+.gray-btn button{
+    border: none;
+    background-color: #efefef;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 500;
+}
+
+.btn-follow{
+    margin-right: 7px;
+}
+
+.post-followers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.post-followers h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.post-bio h3{
+    font-weight: 400;
+}
+
+.post-bio button {
+    border: none;
+    background-color: #efefef;
+    font-size: 14px;
+    border-radius: 15px;
+    padding: 5px 8px;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+.post-bio h4{
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+}
+
+.post-bio a{
+    color: #00376b;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sec-2{
+    display: flex;
+    gap: 3rem;
+    padding: 0px 40px;
+}
+
+.story{
+    text-align: center;
+}
+
+.story img{
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.story p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sec-3{
+    border-top: 1px solid lightgray;
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+}
+
+.tabs{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.tabs p,svg{
+    font-weight: 600;
+}
+
+.tab-ioc {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.sec-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.top-menu p{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-menu a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    position: relative;
+}
+
+.card .bi-x{
+    position: absolute;
+    top: 5px ;
+    right: 5px;
+    color: #7373738d;
+}
+
+
+.card-content{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 50%;
+    height: 50px;
+    border: 1px solid lightgray;
+}
+
+.title-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.title-icon p{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px 0px ;
+}
+
+.title-icon svg{
+    color: #1877f2;
+}
+
+.card-container p{
+    color: #737373;
+    font-size: 14px;
+}
+
+.card-content button{
+    border: none;
+    background-color: #efefef;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+footer{
+    padding: 5rem 0;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 12px;
+    padding: 4px;
+}
+
+footer p{
+    color: #737373;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
